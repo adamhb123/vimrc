@@ -1,4 +1,3 @@
 # Personal VimRC
 ## Description
-Forked from [this repo](https://github.com/amix/vimrc), removed pretty
-much everything besides the basic vimrc 
+Based off of [this rc](https://github.com/amix/vimrc/blob/d93dda477083a88d33ece077625bb056fb93e3f4/vimrcs/basic.vim)
