@@ -382,6 +382,8 @@ function! VisualSelection(direction, extra_filter) range
     let @" = l:saved_reg
 endfunction
 
+" Past this is stuff I (@adamhb123) actually added, and didn't just
+" steal ;)
 " Solve Terminal ALT shortcut issue
 let c='a'
 while c <= 'z'
@@ -391,6 +393,7 @@ while c <= 'z'
 endw
 set timeout ttimeoutlen=50
 
+" Plugins
 call plug#begin()
     Plug 'KabbAmine/vCoolor.vim'
 call plug#end()
